@@ -3,8 +3,9 @@
 
 **Autores:** Nicolás Peña Irurita, Maria, Jose Alfredo Gonzáles  
 **Correos:** nicolas.pena_irurita@uao.edu.co  
+<center>
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/94bb032e-bbd0-4ae6-bdaa-80dbd50f553f" />
-
+<center>
 ---
 
 ##  Descripción General
