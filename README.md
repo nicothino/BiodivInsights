@@ -20,7 +20,8 @@ El resultado final es un **dashboard interactivo (`dashboard.py`)** que muestra 
 ## Estructura del Repositorio
 
 📁 BiodivInsights/
-│
+
+```bash
 ├── data/
 │ ├── biodiversidad_centroides.csv
 │ ├── simplified_polygons.csv
@@ -38,8 +39,7 @@ El resultado final es un **dashboard interactivo (`dashboard.py`)** que muestra 
 ├── requirements.txt
 └── README.md
 
-yaml
-Copiar código
+```
 
 ---
 
@@ -59,6 +59,7 @@ Indican el nivel de riesgo de extinción de cada especie.
 | **LC** | Least Concern | Preocupación menor: riesgo bajo de extinción; especie común o abundante. |
 | **DD** | Data Deficient | Datos insuficientes: no hay suficiente información para evaluar el riesgo. |
 
+<img width="1417" height="656" alt="image" src="https://github.com/user-attachments/assets/990cf220-7d01-413a-8f7e-77517ea0eca8" />
 
 ##  Metodología General
 
@@ -96,7 +97,6 @@ Analizar la distribución de áreas protegidas por año y entidad responsable.
 - Número de áreas protegidas por año de creación.  
 - Áreas protegidas por entidad responsable.  
 
-<img width="1417" height="656" alt="image" src="https://github.com/user-attachments/assets/990cf220-7d01-413a-8f7e-77517ea0eca8" />
 
 ---
 
