@@ -2,3 +2,6 @@ mapa_especies_iucn.html
 data/
 *.csv   
 pycache/
+.gitignore
+.gitattributes
+*docx
