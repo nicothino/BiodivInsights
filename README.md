@@ -2,7 +2,7 @@
 ### Plataforma Global de Monitoreo y Predicción de Biodiversidad mediante Inteligencia Artificial  
 
 **Autores:** Nicolás Peña Irurita, Maria, Jose Alfredo Gonzáles  
-**Correos:** nicolas.pena_irurita@uao.edu.co  
+**Correos:** nicolas.pena_irurita@uao.edu.co , marna_de.valencia@uao.edu.co, jose_alf.gonzalias@uao.edu.co 
 <center>
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/94bb032e-bbd0-4ae6-bdaa-80dbd50f553f" />
 <center>
@@ -86,6 +86,7 @@ Asociar cada especie con el país y continente correspondiente usando análisis 
 ### 2️ EDA de Áreas Protegidas (`eda_areas_protegidas.ipynb`)
 
 **Fuente:** [Protected Planet](https://www.protectedplanet.net/en/search-areas?geo_type=country)
+<img width="1074" height="548" alt="image" src="https://github.com/user-attachments/assets/7f71828b-57d7-4338-9254-c8e9d2e99772" />
 
 #### Objetivo:
 Analizar la distribución de áreas protegidas por año y entidad responsable.
