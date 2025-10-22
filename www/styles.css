@@ -1,0 +1,208 @@
+/* styles.css */
+
+/* Reset básico para consistencia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #2c3e50; /* Azul oscuro para texto */
+    line-height: 1.6;
+}
+
+/* Estilo del contenedor principal */
+.shiny-page {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Estilo del sidebar */
+.shiny-sidebar {
+    background: linear-gradient(180deg, #2c3e50, #34495e); /* Gradiente azul oscuro */
+    color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    transition: width 0.3s ease;
+}
+
+.shiny-sidebar h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #f39c12; /* Naranja para el título */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.shiny-sidebar p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.shiny-sidebar hr {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 15px 0;
+}
+
+.shiny-sidebar h4 {
+    font-size: 1.2rem;
+    color: #f39c12; /* Naranja para subtítulos */
+    margin-bottom: 15px;
+}
+
+.shiny-sidebar h6 {
+    font-size: 0.9rem;
+    color: #d0d0d0;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+/* Estilo de los inputs del sidebar */
+.shiny-input-selectize {
+    margin-bottom: 15px;
+}
+
+.shiny-input-selectize .selectize-control {
+    background: #fff;
+    border: 1px solid #3498db; /* Azul claro para bordes */
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.shiny-input-selectize .selectize-input {
+    font-size: 0.95rem;
+    color: #2c3e50; /* Azul oscuro para texto */
+}
+
+.shiny-input-selectize .selectize-dropdown {
+    background: #fff;
+    border: 1px solid #3498db; /* Azul claro para dropdown */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título principal */
+.shiny-page .title-panel {
+    background: #3498db; /* Azul claro para el fondo del título */
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #f39c12; /* Naranja para el borde */
+}
+
+/* Estilo de los paneles de navegación */
+.navset-card-tab {
+    background: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navset-card-tab .nav-tabs {
+    background: #f5f6fa;
+    border-bottom: 1px solid #ddd;
+    padding: 0 20px;
+}
+
+.navset-card-tab .nav-item {
+    margin-right: 5px;
+}
+
+.navset-card-tab .nav-link {
+    color: #2c3e50; /* Azul oscuro para texto */
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 4px 4px 0 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navset-card-tab .nav-link:hover {
+    background: #e9ecef;
+    color: #f39c12; /* Naranja al pasar el mouse */
+}
+
+.navset-card-tab .nav-link.active {
+    background: #f39c12; /* Naranja para pestaña activa */
+    color: #fff;
+    border-bottom: none;
+}
+
+/* Estilo de los gráficos */
+.shiny-plot-output, .shiny-widget-output {
+    margin: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.shiny-plot-output h3, .shiny-widget-output h3 {
+    font-size: 1.5rem;
+    color: #2c3e50; /* Azul oscuro para títulos */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .shiny-sidebar {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .shiny-page .title-panel {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .navset-card-tab .nav-link {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .shiny-plot-output, .shiny-widget-output {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+/* Botones y controles adicionales */
+.btn {
+    background: #f39c12; /* Naranja para botones */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e67e22; /* Naranja más oscuro al pasar el mouse */
+}
+
+/* Estilo para el fondo del mapa */
+.plotly .geo {
+    background: #e6f0fa; /* Azul claro suave para el fondo del mapa */
+}
+
+/* Estilo para los tooltips de Plotly */
+.plotly .hoverlayer .hovertext {
+    background: rgba(44, 62, 80, 0.8); /* Azul oscuro semi-transparente */
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 0.9rem;
+}
