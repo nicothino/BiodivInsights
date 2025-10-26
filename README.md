@@ -164,10 +164,10 @@ El dashboard integra resultados en línea con los **indicadores del ODS 15**, en
 ##  Instalación
 
 ```bash
-git clone https://github.com/nicolaspena/BiodivInsights.git
+git clone https://github.com/nicothino/BiodivInsights.git
 cd BiodivInsights
 pip install -r requirements.txt
-streamlit run dashboard.py
+streamlit run app.py
 ```
 ## Resultados Esperados
 
